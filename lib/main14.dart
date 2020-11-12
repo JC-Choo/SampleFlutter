@@ -11,7 +11,11 @@ class MyApp14 extends StatelessWidget {
   }
 }
 
+// MyHome14 라는 커스텀 위젯을 만듦.
 class MyHome14 extends StatelessWidget {
+  // BuildContext 란?
+  // 1. build 함수는 Scaffold 라는 위젯을 return 하는데, 이 떄, 위젯 트리 상에서 어디에 위치하는 지에 대한 정보를 갖고 있는 context라는 것을 넣어 return 을 해준다는 의미.
+  // 2. stateless 위젯이나 state 빌드 메서드에 의해서 리턴된 위젯의 부모가 된다.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
